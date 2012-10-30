@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastImport</string>
+    <string name="default_title">&lt;No title&gt;</string>
+    <string name="reload">Reload</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="history">History</string>
+    <string name="authorize">Authorize</string>
+    <string name="no_connection">Could not connect to server!</string>
+    <string name="mystore_password">abcd</string>
+</resources>

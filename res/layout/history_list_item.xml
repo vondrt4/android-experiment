@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:and="http://schemas.android.com/apk/res/android"
+	and:layout_width="fill_parent"
+	and:layout_height="fill_parent"
+	and:paddingTop="4dp"
+	and:paddingBottom="6dp"
+	and:paddingLeft="14dp">
+	
+	<TextView 
+		and:id="@+id/history_item_title"
+		and:layout_width="fill_parent"
+		and:layout_height="24sp"
+		and:gravity="center_vertical"
+		and:textSize="18sp" />
+	
+	<TextView 
+		and:id="@+id/history_item_date"
+		and:layout_below="@id/history_item_title"
+		and:layout_width="fill_parent"
+		and:layout_height="12sp"
+		and:textSize="10sp" />
+
+</RelativeLayout>

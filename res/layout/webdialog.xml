@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:and="http://schemas.android.com/apk/res/android"
+              and:layout_width="fill_parent"
+              and:layout_height="fill_parent"
+              and:orientation="vertical"
+              and:background="@android:color/background_dark">
+
+    <ProgressBar
+        and:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        and:layout_width="fill_parent"
+        and:layout_height="4dp"
+        and:visibility="visible" />
+
+    <TextView 
+        and:id="@+id/title"
+        and:layout_width="fill_parent"
+        and:layout_height="wrap_content"
+        and:paddingTop="4sp"
+        and:paddingLeft="10dp"
+        and:paddingRight="10dp"
+        and:paddingBottom="2sp"
+        and:singleLine="true"
+        and:ellipsize="end"
+        and:textColor="@android:color/primary_text_dark"
+        and:textSize="17sp"
+        and:text="Loading…" />
+    
+    <TextView 
+        and:id="@+id/address"
+        and:layout_width="fill_parent"
+        and:layout_height="wrap_content"
+        and:paddingLeft="10dp"
+        and:paddingRight="10dp"
+        and:paddingBottom="3sp"
+        and:singleLine="true"
+        and:ellipsize="end"
+        and:textColor="@android:color/secondary_text_dark"
+        and:textSize="10sp" />
+        
+    <FrameLayout and:id="@+id/content"
+        and:layout_width="fill_parent"
+        and:layout_height="fill_parent"
+        and:background="@android:color/white" />
+        
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:and="http://schemas.android.com/apk/res/android">
+    <item 
+        and:id="@+id/main_menu_history"
+        and:title="@string/history" />
+    <item 
+        and:id="@+id/main_menu_authorize"
+        and:title="@string/authorize" />
+</menu>

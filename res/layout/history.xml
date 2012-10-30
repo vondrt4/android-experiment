@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:and="http://schemas.android.com/apk/res/android"
+             and:layout_width="fill_parent"
+             and:layout_height="fill_parent">
+	
+    <ListView 
+        and:id="@android:id/list"
+        and:layout_width="fill_parent"
+        and:layout_height="wrap_content" />
+	
+    <TextView 
+        and:id="@android:id/empty"
+        and:layout_width="fill_parent"
+        and:layout_height="wrap_content"
+        and:text="Empty!" />
+
+</FrameLayout>

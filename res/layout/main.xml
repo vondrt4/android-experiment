@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:and="http://schemas.android.com/apk/res/android"
+                and:layout_width="fill_parent"
+                and:layout_height="fill_parent"
+                and:padding="10dp">
+
+    <TextView
+        and:id="@+id/main_title"
+        and:layout_alignParentTop="true"
+        and:layout_width="fill_parent"
+        and:layout_height="wrap_content"
+        and:paddingBottom="6dp"
+        and:text="@string/default_title"
+        and:textSize="18sp" />
+        
+        
+    <Button 
+        and:id="@+id/main_copy"
+        and:layout_alignParentBottom="true"
+        and:layout_alignParentRight="true"
+        and:layout_width="100dp"
+        and:layout_height="wrap_content"
+        and:text="@string/copy" />
+	
+    <Button 
+        and:id="@+id/main_reload"
+        and:layout_alignParentBottom="true"
+        and:layout_alignParentLeft="true"
+        and:layout_width="100dp"
+        and:layout_height="wrap_content"
+        and:text="@string/reload" />
+        
+    <TextView
+        and:id="@+id/main_created"
+        and:layout_above="@id/main_copy"
+        and:layout_width="fill_parent"
+        and:layout_height="wrap_content"
+        and:paddingBottom="3dp"
+        and:textSize="11sp" />
+        
+	
+    <EditText 
+        and:id="@+id/main_content"
+        and:layout_above="@id/main_created"
+        and:layout_below="@id/main_title"
+        and:layout_width="fill_parent"
+        and:layout_height="fill_parent"
+        and:inputType="textMultiLine"
+        and:scrollbars="vertical"
+        and:gravity="top" />
+        
+</RelativeLayout>

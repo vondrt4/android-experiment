@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:and="http://schemas.android.com/apk/res/android" >
+	
+    <item 
+        and:id="@+id/history_list_delete"
+        and:title="@string/delete" />
+
+</menu>
