@@ -24,7 +24,7 @@
 		
 		<activity android:name=".activities.HistoryActivity_" />
                 <activity android:name=".activities.AuthActivity_" />
-                <activity android:name=".auth.AuthorizationActivity" />
+                <activity android:name=".auth.AuthorizationActivty_" />
 		
 	</application>
 

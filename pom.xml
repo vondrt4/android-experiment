@@ -41,9 +41,14 @@
             <name>SpringSource Milestone Repository</name>
             <url>http://repo.springsource.org/milestone</url>
         </repository>        
-    </repositories>
 	
-	
+        <repository>
+    		<id>android-rome-feed-reader-repository</id>
+    		<name>Android ROME Feed Reader Repository</name>
+    		<url>https://android-rome-feed-reader.googlecode.com/svn/maven2/releases</url>
+  		</repository>
+	</repositories>
+
     <!--//////////////////// DEPENDENCIES ////////////////////-->
 
     <dependencies>
@@ -61,7 +66,7 @@
             <version>2.1</version>
         </dependency>
 	
-        <!-- AndroidAnnotations -->    
+        <!-- AndroidAnnotations -->   
         <dependency>
             <groupId>com.googlecode.androidannotations</groupId>
             <artifactId>androidannotations</artifactId>
@@ -84,6 +89,33 @@
             <scope>provided</scope>
         </dependency>
         
+        <dependency>
+  			<groupId>com.google.code.android-rome-feed-reader</groupId>
+  			<artifactId>android-rome-feed-reader</artifactId>
+  			<version>1.0.0-r2</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.simpleframework</groupId>
+		    <artifactId>simple-xml</artifactId>
+		    <version>2.6.1</version>
+		    <exclusions>
+		        <!-- StAX is not available on Android -->
+		        <exclusion>
+		            <artifactId>stax</artifactId>
+		            <groupId>stax</groupId>
+		        </exclusion>
+		        <exclusion>
+		            <artifactId>stax-api</artifactId>
+		            <groupId>stax</groupId>
+		        </exclusion>
+		        <!-- Provided by Android -->
+		        <exclusion>
+		            <artifactId>xpp3</artifactId>
+		            <groupId>xpp3</groupId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
     </dependencies>
 	
 	
